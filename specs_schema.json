@@ -1,0 +1,67 @@
+{
+    "Lens/Zoom": {
+        "Focal Length (35mm equivalent)": "Indicates how wide or zoomed-in the lens view is when compared to a traditional 35mm film camera. A shorter focal length provides a wide-angle view (e.g., landscapes), while a longer focal length allows for telephoto shots (e.g., distant subjects). This affects how much of the scene you can capture and how close you can appear to your subject.",
+        "Aperture (F-stop)": "Describes how much light the lens can let in. Lower values (e.g., f/1.8) mean a larger opening, allowing more light to reach the sensor, which is great for low-light conditions and creating a blurred background effect (bokeh). Higher values (e.g., f/4.0) mean a smaller opening and deeper focus.",
+        "Lens Type": "Specifies the type or brand of lens used (e.g., ZEISS®, Sony G). High-quality lenses provide sharper images, better color accuracy, and reduced distortion, enhancing the overall image quality.",
+        "Optical Zoom": "The camera's ability to zoom in on a subject using the physical movement of the lens. Optical zoom maintains image quality, making it ideal for capturing distant subjects clearly.",
+        "Digital Zoom": "Zoom that enlarges the image digitally rather than through lens movement. This often results in lower image quality because it simply crops and scales up the image.",
+        "Clear Image Zoom": "A type of digital zoom that uses advanced processing to maintain better image quality compared to standard digital zoom. It allows for more zoom range without significant loss of clarity."
+    },
+    "Camera": {
+        "Sensor Type": "The technology used in the image sensor (e.g., CMOS, Exmor R). Different sensor types can affect the sensitivity to light, image quality, and noise levels in videos and photos.",
+        "Sensor Size": "The physical dimensions of the sensor. Larger sensors capture more light, which improves image quality, especially in low-light conditions, and allows for a shallower depth of field.",
+        "Effective Pixels (Photo)": "The number of pixels used for still photography. More pixels mean higher resolution images, which can capture more detail and produce sharper photos.",
+        "Effective Pixels (Video)": "The number of pixels used for video recording. Higher effective pixel counts allow for more detailed and clearer video footage.",
+        "Image Stabilization": "A feature that reduces blurriness caused by camera movement, making handheld shots smoother. Optical stabilization uses physical lens adjustments, while digital stabilization uses software correction.",
+        "Minimum Illumination": "The lowest light level at which the camera can capture clear footage. A lower value (e.g., 1 lux) means better performance in dark environments.",
+        "Manual Control Features": "Refers to the ability to adjust settings such as focus, exposure, and aperture manually. This gives more creative control to the user, allowing for precise adjustments based on the scene."
+    },
+    "Video": {
+        "Frame Rate Options": "The number of frames captured per second (e.g., 24 fps, 60 fps). Higher frame rates (e.g., 60 fps) create smoother motion, ideal for action shots, while 24 fps is often used for a cinematic look.",
+        "Video Resolution": "The number of pixels in each frame of the video (e.g., 1920x1080 Full HD, 3840x2160 4K). Higher resolutions result in more detailed videos, which look better on larger screens.",
+        "Recording Format": "The type of video file format used (e.g., MP4, AVCHD). Different formats affect file size, quality, and compatibility with editing software.",
+        "Bit Rate": "The amount of data processed per second in a video file, measured in Mbps. Higher bit rates typically mean better quality but larger file sizes.",
+        "HDR Recording": "High Dynamic Range (HDR) recording captures a wider range of light and dark areas, creating more vivid and realistic videos with better contrast."
+    },
+    "Screen": {
+        "Screen Type": "The type of display used on the camcorder (e.g., LCD, OLED). Affects brightness, viewing angles, and color accuracy.",
+        "Brightness Adjustment": "The ability to change the screen's brightness. Important for visibility in different lighting conditions.",
+        "Touch Screen": "Whether the display is touch-sensitive, allowing for intuitive control of settings and focus by tapping the screen.",
+        "Viewfinder": "An eyepiece for composing shots. Useful in bright conditions when the screen might be hard to see and for providing a more stable shooting position."
+    },
+    "Audio": {
+        "Built-in Microphone Type": "The type of microphone integrated into the camcorder (e.g., stereo, zoom mic). Affects the quality and directionality of sound captured.",
+        "Built-in Speaker": "Allows playback of audio directly from the camcorder. Useful for quick review of recorded footage.",
+        "External Mic Input": "A port for connecting an external microphone, which enhances audio quality by allowing specialized mic attachments.",
+        "Manual Audio Control": "The ability to adjust audio levels manually. Important for preventing sound distortion in changing audio environments."
+    },
+    "Connectivity/Jacks": {
+        "HDMI Output": "A port for connecting the camcorder to a TV or monitor to play back videos in high definition.",
+        "USB Output": "A port for transferring files from the camcorder to a computer or charging the device.",
+        "Video Output": "Allows connection to external video devices for playback or live streaming.",
+        "Audio Output": "Used to send audio to external speakers or headphones for monitoring sound quality.",
+        "Wi-Fi/NFC": "Wireless connectivity for transferring files, live streaming, or controlling the camcorder remotely with a smartphone or tablet."
+    },
+    "Storage/Power": {
+        "Internal Storage": "Built-in memory for recording video and photos. Affects how much footage can be saved without an external memory card.",
+        "External Media Type": "The type of removable storage supported (e.g., SD card, microSD). Determines compatibility and additional recording space.",
+        "Battery Type": "Specifies the type of battery used (e.g., removable lithium-ion). Affects battery life and the ability to swap batteries during long shoots.",
+        "USB Charging": "Indicates if the camcorder can be charged via USB, offering more convenience for on-the-go power replenishment."
+    },
+    "Physical": {
+        "Dimensions (HxWxD)": "The size of the camcorder, measured in height, width, and depth. Important for portability and storage.",
+        "Weight": "How heavy the camcorder is. Affects comfort during handheld shooting and ease of transport."
+    },
+    "Additional Features": {
+        "GPS Geotagging": "Allows location data to be recorded with videos, helpful for organizing footage by location.",
+        "Accessory Shoe": "A mount for attaching external devices like lights or microphones, expanding the camcorder’s capabilities.",
+        "Face Detection": "Automatically detects and focuses on faces, improving focus and exposure for subjects.",
+        "Scene Modes": "Preset shooting modes optimized for different environments (e.g., low light, sports). Simplifies shooting for specific scenarios.",
+        "HDR Video Capability": "Enables the camera to capture video with better color and contrast, making scenes look more vivid and lifelike.",
+        "Cinematic Features": "Includes modes like 24p recording for a film-like look or specific color grading options.",
+        "Stabilization Enhancements": "Advanced stabilization technology to further reduce shake for smoother footage.",
+        "Manual Focus": "The ability to set the focus manually, giving more control over what’s sharp in the shot.",
+        "White Balance": "Adjusts the color balance according to the light source, ensuring accurate colors in different lighting conditions.",
+        "Others": "Any additional notable features or unique specifications that do not fit into the other categories."
+    }
+}
