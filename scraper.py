@@ -142,6 +142,14 @@ async def main():
             # Add Model back as index
             df_normalized.index = model_column
             
+            # Prepare descriptions
+            descriptions = ['Model']
+            for feature in features:
+                for category, features_dict in SPECS_SCHEMA.items():
+                    if feature in features_dict:
+                        description = features_dict[feature]
+                        descriptions.append(f"\"{description}\"")
+            
             # Save with a format that preserves the multi-column headers
             with open('normalized_specs.csv', 'w', newline='', encoding='utf-8') as f:
                 # First write the category row
@@ -163,6 +171,9 @@ async def main():
                 # Write the feature names
                 f.write('Model,' + ','.join(features) + '\n')
                 
+                # Write the descriptions
+                f.write(','.join(descriptions) + '\n')
+                
                 # Write the data
                 df_normalized.to_csv(f, header=False)
             
@@ -179,6 +190,6 @@ async def main():
 if __name__ == "__main__":
     TEST = True
     if TEST:
-        urls = urls[:2]
+        urls = urls[:1]
     
     asyncio.run(main())
